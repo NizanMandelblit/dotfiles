@@ -130,3 +130,15 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# work aliases
+alias act='source ~/workspace/bin/activate'
+alias ass='source ~/workspace/bin/activate; pushd ~/workspace/wifi-manager/work/pulp/scripts'
+alias actt='source ~/workspace/wifi-manager/work/cellium_tests_site/.env/bin/activate'
+alias deact=deactivate
+alias cnc='cd /home/nizan/workspace/wifi-manager/work/pulp/scripts/;./clbrapp.sh'
+
+alias board='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_shell.py /dev/ttyUSB0'
+
+alias board1='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_shell.py /dev/ttyUSB1'
+alias board2='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_shell.py /dev/ttyUSB2'
