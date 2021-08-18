@@ -141,5 +141,5 @@ alias board='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_sh
 alias board1='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_shell.py /dev/ttyUSB1'
 alias board2='python /home/nizan/workspace/wifi-manager/work/pulp/scripts/pulp_shell.py /dev/ttyUSB2'
 alias mnt= 'sudo sshfs -o allow_other royk@10.100.1.247:/ /mnt/simdir'
-alias umnt= 'killall sshfs && sudo umount -l /mnt/simdir'
+alias umnt= 'killall sshfs; sudo umount -l /mnt/simdir'
 
